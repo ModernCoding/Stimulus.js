@@ -69,6 +69,26 @@
       PIN:
       <textarea data-target="clipboard.source" readonly>3737</textarea>
     </div>
+
+    <div data-controller="slideshow" data-slideshow-index="1">
+      <button data-action="slideshow#previous">←</button>
+      <button data-action="slideshow#next">→</button>
+
+      <div data-target="slideshow.slide" class="slide">🐵</div>
+      <div data-target="slideshow.slide" class="slide">🙈</div>
+      <div data-target="slideshow.slide" class="slide">🙉</div>
+      <div data-target="slideshow.slide" class="slide">🙊</div>
+    </div>
+
+    <div data-controller="slideshow" data-slideshow-index="3">
+      <button data-action="slideshow#previous">←</button>
+      <button data-action="slideshow#next">→</button>
+
+      <div data-target="slideshow.slide" class="slide">🐵</div>
+      <div data-target="slideshow.slide" class="slide">🙈</div>
+      <div data-target="slideshow.slide" class="slide">🙉</div>
+      <div data-target="slideshow.slide" class="slide">🙊</div>
+    </div>
   </body>
 
 </html>

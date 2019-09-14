@@ -9,3 +9,11 @@ body {
 .clipboard--supported .clipboard-button {
   display: initial;
 }
+
+.slide {
+  display: none;
+}
+
+.slide.slide--current {
+  display: block;
+}
